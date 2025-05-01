@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boys and Girls Summer Camp 2025</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-yellow-50 font-sans">
+  <header class="bg-green-600 text-white p-6 shadow-lg">
+    <h1 class="text-4xl font-bold text-center">Boys and Girls Summer Camp 2025</h1>
+    <p class="text-center text-lg mt-2">Join us for fun, games, and creativity from July 7–18!</p>
+  </header>
+
+  <nav class="bg-green-100 text-green-900 p-4 text-center space-x-4">
+    <a href="#home" class="font-semibold hover:underline">Home</a>
+    <a href="#about" class="font-semibold hover:underline">About Us</a>
+    <a href="#register" class="font-semibold hover:underline">Register</a>
+  </nav>
+
+  <section id="home" class="max-w-4xl mx-auto mt-10 px-4">
+    <h2 class="text-3xl font-semibold text-green-700 mb-4">Welcome!</h2>
+    <p class="text-lg mb-6">
+      We're excited to host a fun-filled boys and girls summer camp this year! From July 7th to July 18th, kids will enjoy a variety of activities tailored just for them.
+    </p>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow-md border border-green-100">
+        <h3 class="text-2xl font-bold text-blue-600 mb-2">Boys Camp</h3>
+        <p>Led by Sean and [Your Name], the boys will play sports and games all day long! From soccer to relay races, it’s all about action and teamwork.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md border border-green-100">
+        <h3 class="text-2xl font-bold text-pink-600 mb-2">Girls Camp</h3>
+        <p>Laney will lead the girls in fun hangouts, arts, and crafts activities. Think painting, friendship bracelets, and creative fun every day!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="max-w-4xl mx-auto mt-16 px-4">
+    <h2 class="text-3xl font-semibold text-green-700 mb-4">About Us</h2>
+    <p class="text-lg mb-6">
+      Meet the camp leaders! This section will be updated soon with pictures and bios of Sean, Laney, and [Your Name]. Stay tuned!
+    </p>
+  </section>
+
+  <section id="register" class="max-w-4xl mx-auto mt-16 px-4">
+    <h2 class="text-3xl font-semibold text-green-700 mb-4">Register</h2>
+    <p class="text-lg mb-4">Fill out the form below to sign up for the Boys and Girls Summer Camp 2025!</p>
+    <form action="#" method="POST" class="bg-white p-6 rounded-xl shadow-md border border-green-100 space-y-4">
+      <div>
+        <label for="childName" class="block font-medium">Child's Name</label>
+        <input type="text" id="childName" name="childName" class="w-full p-2 border rounded" required />
+      </div>
+      <div>
+        <label for="age" class="block font-medium">Age</label>
+        <input type="number" id="age" name="age" class="w-full p-2 border rounded" required />
+      </div>
+      <div>
+        <label for="campType" class="block font-medium">Camp Type</label>
+        <select id="campType" name="campType" class="w-full p-2 border rounded">
+          <option value="boys">Boys</option>
+          <option value="girls">Girls</option>
+        </select>
+      </div>
+      <div>
+        <label for="parentEmail" class="block font-medium">Parent Email</label>
+        <input type="email" id="parentEmail" name="parentEmail" class="w-full p-2 border rounded" required />
+      </div>
+      <div>
+        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Submit</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="bg-green-600 text-white text-center p-4 mt-12">
+    <p>&copy; 2025 Boys and Girls Summer Camp | Created by [Your Name], Sean, and Laney</p>
+  </footer>
+</body>
+</html>
